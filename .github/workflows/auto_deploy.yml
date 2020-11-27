@@ -33,4 +33,8 @@ jobs:
       - name: Installing Surge
         run: npm install -g surge
       - name: deploying using surge
+<<<<<<< HEAD
         run: surge hzinternational.surge.sh --token {{secrets.SURGE_TOKEN_1}}
+=======
+        run: surge hzinternational.surge.sh --token ${{ secrets.SURGE_TOKEN_1 }}
+>>>>>>> 51fa94ff71218cd15754d93456a5f17d1cc1f42a
